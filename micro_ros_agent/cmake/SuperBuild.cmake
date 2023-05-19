@@ -24,9 +24,9 @@ find_package(xrceagent 2 EXACT QUIET)
 if(NOT xrceagent_FOUND)
     ExternalProject_Add(xrceagent
             GIT_REPOSITORY
-                https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
+                https://github.com/delihus/Micro-XRCE-DDS-Agent.git
             GIT_TAG
-                ros2
+                develop
             PREFIX
                 ${PROJECT_BINARY_DIR}/agent
             INSTALL_DIR
